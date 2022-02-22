@@ -1,0 +1,219 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.onda {
+    margin: 5px;
+    position: relative;
+    height: 8rem;
+    max-width: 100%;
+    background: #aaff00;
+    border: 2px solid #017f05;
+    box-shadow: 2px 2px 5px 5px #017f05;
+    z-index: 0;
+  }
+  .onda:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 46%;
+    border-radius: 55% 100%;
+    width: 60%;
+    height: 9rem;
+    background-color: white;
+    top: 30%;
+    border-top: 2px solid #017f05;
+    z-index: 1;
+  }
+
+
+.contenedor_iconos{
+    margin-top: 10px;
+
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+   
+}
+.icono_home{
+    padding-left: 2%;
+    position: relative;
+    width: 6%;
+    height: 7rem;
+    z-index: 2;
+
+}
+.icono_home img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.icono_home img:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+  
+}
+
+.icono_facu{
+    width: 6%;
+    margin-right: 1%;
+    height: 7rem;
+    background-color: black;
+    z-index: 2;
+}
+
+
+/*Main*/
+
+main{
+    border-radius: 25% 0% 25% 10%;
+    margin-top: 2%;
+    position: relative;
+    width: 100%;
+    height: 47rem;
+    background: #FFB600;
+background: -moz-linear-gradient(-45deg, #FFB600 0%, #FF5400 46%, #FFB700 100%);
+background: -webkit-linear-gradient(-45deg, #FFB600 0%, #FF5400 46%, #FFB700 100%);
+background: linear-gradient(135deg, #FFB600 0%, #FF5400 46%, #FFB700 100%);
+box-shadow: 4px 4px 5px 5px grey;
+z-index: 1;
+}
+
+main:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 82%;
+    left: -2%;
+    border-radius: 55% 100% 100% 10%;
+    width: 55%;
+    height: 10rem;
+    background-color: white;
+    z-index: -1;
+  }
+
+  .contenedor_main{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+  }
+
+  .contenedor_main .menu{
+      
+      height: 100%;
+      width: 20%;
+      z-index: 2;
+      
+  }
+ 
+  .contenedor_main .menu2{
+   
+    z-index: 2;
+}
+ 
+.contenedor_main .menu .sub{
+    margin-top: 5%;
+    width: 100%;
+    height: 17%;
+    background-color: #ffd000;
+    transform:
+      perspective(800px)
+      rotateY(40deg) scale(0.9)
+      rotateX(5deg);
+    filter: blur(1px);
+    transition: 0.8s ease all;
+    box-shadow: 4px 4px 5px 5px #017f05; 
+    display: flex;
+    justify-content: flex-start;
+}
+.contenedor_main .menu .sub:hover{
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+    box-shadow: 4px 4px 5px 5px #FFFF; 
+
+}
+.contenedor_main .menu .sub2:hover{
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+    box-shadow: 4px 4px 5px 5px #FFFF; 
+
+}
+
+.contenedor_main .menu .sub a{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.contenedor_main .menu .sub2 .cont_img{
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20%;
+    height: 5rem;
+    background-color: black;
+}
+
+.contenedor_main .menu .sub2 a{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.contenedor_main .menu .sub .cont_img{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20%;
+    height: 5rem;
+    background-color: black;
+}
+
+
+.contenedor_main .menu .sub2{
+    margin-top: 5%;
+    width: 100%;
+    height: 17%;
+    background-color: #ffd000;
+    transform:
+    perspective(800px)
+      rotateY(-40deg) scale(0.9)
+      rotateX(5deg);
+    filter: blur(1px);
+   
+    transition: 0.8s ease all;
+    box-shadow: 4px 4px 5px 5px #017f05; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+#demotext{
+    text-align: center;
+    width: 100%;
+    height: 15rem;
+    font-size: 100px;
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5, 2px -7px 0px rgba(206,89,55,0);
+color: black;
+
+}
+
+.contenedor_main .menu2 .cont_img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: black;
+    width: 50%;
+    height: 23rem;
+}
