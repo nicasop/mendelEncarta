@@ -1,0 +1,208 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: auto;
+    min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
+ } 
+body{
+    background: radial-gradient(circle,#A3C4F3,#FBF8CC); 
+}
+.icono_home{
+    padding-left: 2%;
+    position: absolute;
+    width: 6%;
+    height: 7rem;
+    z-index: 2;
+
+}
+.icono_home img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.icono_home img:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+  
+}
+
+header{
+    margin: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#demotext {
+    margin-left: 15%;
+    font-size: 100px;
+    color: #FFFFFF;
+
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+   
+    }
+
+.cont_icon{
+    width: 10%;
+    height: 10rem;
+    background-color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.intro{
+    width: 80%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.texto_intro{
+    width: 50%;
+    height: 60%;
+    background-color: #A3C4F3;
+    border-radius: 50px 50px 50px 50px;
+ 
+    text-align: justify;
+    box-shadow: 2px 2px 5px 5px #017f05;
+}
+.texto_intro p{
+    padding: 3%;
+    margin-top: 2%;
+   
+    font-size: 30px;
+}
+
+.intro_img{
+    width: 15%;
+    height: 100%;
+    
+}
+
+.intro_tabla{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}
+
+.section1{
+    
+    width: 100%;
+    height: 20rem;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.primera_ley{
+    margin: 2%;
+    margin-left: 10%;
+    width: 50%;
+    height: 23rem;
+    background-color: #A3C4F3;
+    border-radius: 50px;
+    text-align: justify;
+    box-shadow: 2px 2px 5px 5px #017f05;
+}
+
+.primera_ley  p{
+    padding: 3%;
+    margin-top: 2%;
+   
+    font-size: 30px;
+}
+
+.primera_ley_img{
+    margin: 2%;
+    width: 15%;
+    margin-right: 25%;
+    height: 20rem;
+    background-color: black;
+}
+
+.primera_audio{
+    position: absolute;
+    margin-left: 80%;
+}
+
+/*Segunda ley*/
+.section2{
+    
+    width: 100%;
+    height: 20rem;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.segunda_ley{
+    margin: 2%;
+    margin-left: 10%;
+    width: 50%;
+    height: 23rem;
+    background-color: #A3C4F3;
+    border-radius: 50px;
+    text-align: justify;
+    box-shadow: 2px 2px 5px 5px #017f05;
+}
+
+.segunda_ley  p{
+    padding: 3%;
+    margin-top: 2%;
+   
+    font-size: 30px;
+}
+
+.segunda_ley_img{
+    margin: 2%;
+    width: 15%;
+    margin-right: 25%;
+    height: 20rem;
+    background-color: black;
+}
+
+
+/*Tercera ley*/
+
+/*Segunda ley*/
+.section3{
+    
+    width: 100%;
+    height: 20rem;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.tercera_ley{
+    margin: 2%;
+    margin-left: 10%;
+    width: 50%;
+    height: 23rem;
+    background-color: #A3C4F3;
+    border-radius: 50px;
+    text-align: justify;
+    box-shadow: 2px 2px 5px 5px #017f05;
+}
+
+.tercera_ley  p{
+    padding: 3%;
+    margin-top: 2%;
+   
+    font-size: 30px;
+}
+
+.tercera_ley_img{
+    margin: 2%;
+    width: 15%;
+    margin-right: 25%;
+    height: 20rem;
+    background-color: black;
+}
+.fantasma{
+    margin-top: 5%;
+    height: 2rem;
+    width: 100%;
+    
+}
