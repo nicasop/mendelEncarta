@@ -62,7 +62,7 @@ header{
 
 .conte_img{
     position: relative;
-    background-color: black;
+    /*background-color: black;*/
     top: 15%;
     left: 17%;
     width: 20%;
@@ -103,4 +103,17 @@ audio{
 .icono_home img:hover{
     -webkit-transform:scale(1.2);transform:scale(1.2);
   
+}
+
+section{
+    display: flex;
+
+    
+}
+iframe{
+    position: absolute;
+    margin-top:2%;
+    margin-left: 17%;
+    width: 50%;
+    height: 25.5rem;
 }

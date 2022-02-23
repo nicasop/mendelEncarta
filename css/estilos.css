@@ -151,6 +151,10 @@ main:before {
     font-size: 25px;
     font-weight: bolder;
     text-decoration: none;
+    width: 80%;
+    height: 5rem;
+
+    
 }
 
 .contenedor_main .menu .sub2 .cont_img{
@@ -159,7 +163,7 @@ main:before {
     margin-bottom: auto;
     width: 20%;
     height: 5rem;
-    background-color: black;
+    /*background-color: black;*/
 }
 
 .contenedor_main .menu .sub2 a{
@@ -170,6 +174,10 @@ main:before {
     font-size: 25px;
     font-weight: bolder;
     text-decoration: none;
+    margin-left: 10px;
+    width: 80%;
+    height: 5rem;
+    
 }
 
 .contenedor_main .menu .sub .cont_img{
@@ -178,7 +186,7 @@ main:before {
     margin-bottom: auto;
     width: 20%;
     height: 5rem;
-    background-color: black;
+    /*background-color: black;*/
 }
 
 
@@ -213,7 +221,7 @@ color: black;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-    background-color: black;
+    /*background-color: black;*/
     width: 50%;
     height: 23rem;
 }
