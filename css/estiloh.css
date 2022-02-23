@@ -105,3 +105,16 @@ audio{
     -webkit-transform:scale(1.2);transform:scale(1.2);
   
 }
+
+section{
+    display: flex;
+
+    
+}
+iframe{
+    position: absolute;
+    margin-top:2%;
+    margin-left: 17%;
+    width: 50%;
+    height: 25.5rem;
+}

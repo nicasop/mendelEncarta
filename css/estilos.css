@@ -151,6 +151,9 @@ main:before {
     font-size: 25px;
     font-weight: bolder;
     text-decoration: none;
+    width: 80%;
+    height: 5rem;
+    
 }
 
 .contenedor_main .menu .sub2 .cont_img{
@@ -170,6 +173,9 @@ main:before {
     font-size: 25px;
     font-weight: bolder;
     text-decoration: none;
+    margin-left: 10px;
+    width: 80%;
+    height: 5rem;
 }
 
 .contenedor_main .menu .sub .cont_img{
