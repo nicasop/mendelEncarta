@@ -24,6 +24,9 @@
         <div class="menu3d">
             <a href="datos.php?id=3">Dato Curioso 3</a>
         </div>
+        <div class="menu3d">
+            <a href="datos.php?id=4">Dato Curioso 4</a>
+        </div>
     </div>
     </header>
     <section>
@@ -35,23 +38,22 @@
  
             if ($id == 1){
                 echo   '<div class="divD">
-                    <p id="texto1">Reprehenderit pariatur sit eiusmod sint do in exercitation eiusmod ex veniam quis irure. Esse ut exercitation in deserunt sint. Ullamco aliquip ullamco et sit eiusmod deserunt consectetur sint. Irure dolore fugiat culpa ut est Lorem cupidatat laboris ut eu mollit. Velit pariatur anim amet et ad eu aliqua aliqua pariatur dolor anim in. Est non proident nulla consectetur nisi duis amet adipisicing exercitation culpa quis aliqua elit.
-
-Aute duis incididunt irure magna commodo cupidatat dolore do proident. Incididunt fugiat non eu tempor cupidatat elit quis nulla sit est reprehenderit pariatur cupidatat ut. Pariatur nulla sint non aute commodo pariatur et sint commodo ut eiusmod non anim. Aliqua ea sit cillum amet dolore consequat sit sint deserunt sit ipsum aute quis aute. Adipisicing adipisicing adipisicing ut tempor nostrud proident qui elit et ipsum consectetur ipsum pariatur laborum. Aliqua elit nostrud do eiusmod non.</p>
+                    <p id="texto1">Sabías que sus experimentos analizaron siete características de los guisantes: color de la flor, posición de la flor en el tallo, color de la semilla, textura de la semilla, forma de la vaina, color de la vaina y altura de la planta.</p>
                     </div>';
             }
             else if( $id ==2){
                 echo   '<div class="divD">
-                <p id="texto2">sit eiusmod sint do in exercitation eiusmod ex veniam quis irure. Esse ut exercitation in deserunt sint. Ullamco aliquip ullamco et sit eiusmod deserunt consectetur sint. Irure dolore fugiat culpa ut est Lorem cupidatat laboris ut eu mollit. Velit pariatur anim amet et ad eu aliqua aliqua pariatur dolor anim in. Est non proident nulla consectetur nisi duis amet adipisicing exercitation culpa quis aliqua elit.
-
-                Aute duis incididunt irure magna commodo cupidatat dolore do proident. Incididunt fugiat non eu tempor cupidatat elit quis nulla sit est reprehenderit pariatur cupidatat ut. Pariatur nulla sint non aute commodo pariatur et sint commodo ut eiusmod non anim. Aliqua ea sit cillum amet dolore consequat sit sint deserunt sit ipsum aute quis aute. Adipisicing adipisicing adipisicing ut tempor nostrud proident qui elit et ipsum consectetur ipsum pariatur laborum. Aliqua elit nostrud do eiusmod non.</p>
+                <p id="texto2">Las leyes de la genética que él estableció pasaron desapercibidas 34 años hasta el día de su reconocimiento.</p>
                     </div>';
             }
             else if( $id ==3){
                 echo   '<div class="divD">
-                <p id="texto3"> exercitation eiusmod ex veniam quis irure. Esse ut exercitation in deserunt sint. Ullamco aliquip ullamco et sit eiusmod deserunt consectetur sint. Irure dolore fugiat culpa ut est Lorem cupidatat laboris ut eu mollit. Velit pariatur anim amet et ad eu aliqua aliqua pariatur dolor anim in. Est non proident nulla consectetur nisi duis amet adipisicing exercitation culpa quis aliqua elit.
-
-                Aute duis incididunt irure magna commodo cupidatat dolore do proident. Incididunt fugiat non eu tempor cupidatat elit quis nulla sit est reprehenderit pariatur cupidatat ut. Pariatur nulla sint non aute commodo pariatur et sint commodo ut eiusmod non anim. Aliqua ea sit cillum amet dolore consequat sit sint deserunt sit ipsum aute quis aute. Adipisicing adipisicing adipisicing ut tempor nostrud proident qui elit et ipsum consectetur ipsum pariatur laborum. Aliqua elit nostrud do eiusmod non.</p>
+                    <p id="texto3">Sabías que el resultado de sus experimentos dio lugar a lo que hoy se conoce como las LEYES DE MENDEL, que constituyen la base esencial de la GENÉTICA.</p>
+                    </div>';
+            }
+            else if( $id ==4){
+                echo   '<div class="divD">
+                    <p id="texto4">Sabías que los descendientes de dos individuos que son RAZAS PURAS para un determinado carácter serán iguales para dicho carácter.</p>
                     </div>';
             }
         ?>
