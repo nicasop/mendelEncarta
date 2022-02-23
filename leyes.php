@@ -13,7 +13,9 @@
     </div>
     <header>
         <div id="demotext">LEYES DE MENDEL</div>
-        <div class="cont_icon"></div>
+        <div class="cont_icon">
+        <img src="imagenes/leyesMendel.png" style="width: 100%; height: 100%;">
+        </div>
     </header>
 
     <main>

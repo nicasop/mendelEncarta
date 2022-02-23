@@ -47,7 +47,7 @@ header{
 .cont_icon{
     width: 10%;
     height: 10rem;
-    background-color: black;
+    /*background-color: black;*/
 }
 
 main{
@@ -86,7 +86,7 @@ main{
     margin-left: 2%;
     width: 50%;
     height: 100%;
-    background-color: black;
+    /*background-color: black;*/
 }
 
 .section1{
