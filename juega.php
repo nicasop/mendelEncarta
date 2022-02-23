@@ -30,7 +30,10 @@
     </header>
     <section>
         <?php
-            $id =  $_REQUEST["id"];
+            $id = 1;
+            if (isset($_REQUEST["id"])){
+                $id =  $_REQUEST["id"];
+            }
  
             if ($id == 1){
                 echo   '<iframe src ="https://es.educaplay.com/recursos-educativos/11490570-herencia_mendeliana.html">

@@ -28,7 +28,10 @@
     </header>
     <section>
     <?php
-            $id =  $_REQUEST["id"];
+            $id = 1;
+            if (isset($_REQUEST["id"])){
+                $id =  $_REQUEST["id"];
+            }
  
             if ($id == 1){
                 echo   '<div class="divD">
@@ -56,6 +59,5 @@ Aute duis incididunt irure magna commodo cupidatat dolore do proident. Incididun
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="script/letras.js"></script>
-    <script type="text/javascript">
 </body>
 </html>

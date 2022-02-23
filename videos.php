@@ -28,7 +28,10 @@
     </header>
     <section>
         <?php
-            $id =  $_REQUEST["id"];
+            $id = 1;
+            if (isset($_REQUEST["id"])){
+                $id =  $_REQUEST["id"];
+            }
  
             if ($id == 1){
                echo ' <iframe  src="https://www.youtube.com/embed/FR8cRbUxZFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';

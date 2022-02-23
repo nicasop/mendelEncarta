@@ -67,7 +67,7 @@ main{
     border-radius: 50px 50px 50px 50px;
  
     text-align: justify;
-    box-shadow: 2px 2px 5px 5px #017f05;
+    /* box-shadow: 2px 2px 5px 5px #017f05; */
 }
 .texto_intro p{
     padding: 3%;
@@ -98,13 +98,13 @@ main{
 }
 .primera_ley{
     margin: 2%;
-    margin-left: 10%;
+    margin-left: 8%;
     width: 50%;
-    height: 23rem;
+    height: 24.5rem;
     background-color: #A3C4F3;
     border-radius: 50px;
     text-align: justify;
-    box-shadow: 2px 2px 5px 5px #017f05;
+    /* box-shadow: 2px 2px 5px 5px #017f05; */
 }
 
 .primera_ley  p{
@@ -116,10 +116,10 @@ main{
 
 .primera_ley_img{
     margin: 2%;
-    width: 15%;
+    width: 25%;
     margin-right: 25%;
     height: 20rem;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .primera_audio{
@@ -139,13 +139,13 @@ main{
 }
 .segunda_ley{
     margin: 2%;
-    margin-left: 10%;
+    margin-left: 8%;
     width: 50%;
-    height: 23rem;
+    height: 24.5rem;
     background-color: #A3C4F3;
     border-radius: 50px;
     text-align: justify;
-    box-shadow: 2px 2px 5px 5px #017f05;
+    /* box-shadow: 2px 2px 5px 5px #017f05; */
 }
 
 .segunda_ley  p{
@@ -157,10 +157,10 @@ main{
 
 .segunda_ley_img{
     margin: 2%;
-    width: 15%;
+    width: 25%;
     margin-right: 25%;
     height: 20rem;
-    background-color: black;
+    /* background-color: black; */
 }
 
 
@@ -177,13 +177,13 @@ main{
 }
 .tercera_ley{
     margin: 2%;
-    margin-left: 10%;
+    margin-left: 8%;
     width: 50%;
-    height: 23rem;
+    height: 24.5rem;
     background-color: #A3C4F3;
     border-radius: 50px;
     text-align: justify;
-    box-shadow: 2px 2px 5px 5px #017f05;
+    /* box-shadow: 2px 2px 5px 5px #017f05; */
 }
 
 .tercera_ley  p{
@@ -195,10 +195,10 @@ main{
 
 .tercera_ley_img{
     margin: 2%;
-    width: 15%;
+    width: 25%;
     margin-right: 25%;
     height: 20rem;
-    background-color: black;
+    /* background-color: black; */
 }
 .fantasma{
     margin-top: 5%;
