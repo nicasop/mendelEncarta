@@ -100,3 +100,64 @@ body{
 .divD p{
     display: none;
 }
+
+.divD .contenedor_img{
+    margin: auto;
+    margin-top: 3%;
+    width: 50%;
+    height: 30rem;
+   display: none;
+}
+
+/*Menu 2*/
+
+
+.menu2{
+    margin-top: 55%;
+    width: 100%;
+    height: 8rem;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu3d2 {
+    background: radial-gradient(circle,#FDE4CF,#CFBAF0); 
+
+    width: 10%;
+    height: 7rem;
+    transform:
+    perspective(2000px)
+    translate3d(0px, -66px, 198px)
+    rotateX(-55deg)
+    scale3d(0.86, 0.75, 1)
+    translateY(50px);
+    border-radius: 5px;
+    will-change: transform;
+    transition: 0.4s ease-in-out transform;
+    box-shadow: 2px 2px 5px 5px grey;
+    padding-top: 3%;
+  }
+  .menu3d2:hover {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  .menu3d2 a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+} 
+
+.titulodos_section{
+    position: absolute;
+    margin-top: 40%;
+}
+
+.iframe_dos{
+    position: absolute;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 40rem;
+}
