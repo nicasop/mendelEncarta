@@ -1,0 +1,74 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: auto;
+    min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
+ } 
+body{
+    background: radial-gradient(circle,#FFCFD2,#98F5E1); 
+}
+header{
+   text-align: center;
+   margin-top: 2%;
+}
+#demotext {
+    color: #FFFFFF;
+    font-size: 100px;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+
+.icono_home{
+    padding-left: 2%;
+    position: absolute;
+    width: 6%;
+    height: 7rem;
+    z-index: 2;
+
+}
+.icono_home img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.icono_home img:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+  
+}
+
+main{
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.contenedor-pregunta{
+    padding: 20px 0;
+}
+
+.resp{
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.resp:hover{
+    cursor: pointer;
+    transform: scale(1.15,1.15);
+}
+
+.correcto{
+    background-color: rgba(0,255,0,0.5);
+}
+
+.incorrecto{
+    background-color: rgba(255,0,0,0.5);
+}
+
+.sin-eventos{
+    pointer-events: none;
+}
+
