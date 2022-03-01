@@ -9,7 +9,8 @@ html{
     min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
  } 
 body{
-    background: radial-gradient(circle,#A3C4F3,#FBF8CC); 
+    background: radial-gradient(circle,#C53A7E,#c494ab); 
+    /* background: linear-gradient(to bottom right,#ca8baa#C53A7E);  */
 }
 .icono_home{
     padding-left: 2%;
@@ -45,123 +46,24 @@ header{
     }
 
 .cont_icon{
-    width: 10%;
-    height: 10rem;
-    /*background-color: black;*/
-}
-
-main{
-    display: flex;
-    justify-content: center;
-}
-.intro{
-    width: 80%;
-    height: 25rem;
-    display: flex;
-    justify-content: space-between;
-}
-.texto_intro{
-    width: 50%;
-    height: 60%;
-    background-color: #A3C4F3;
-    border-radius: 50px 50px 50px 50px;
- 
-    text-align: justify;
-    /* box-shadow: 2px 2px 5px 5px #017f05; */
-}
-.texto_intro p{
-    padding: 3%;
-    margin-top: 2%;
-   
-    font-size: 30px;
-}
-
-.intro_img{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 15%;
-    height: 100%;
-    
-}
-
-.intro_tabla{
-    margin-left: 2%;
-    width: 50%;
-    height: 100%;
+    height: 40%;
     /*background-color: black;*/
-}
-
-.section1{
-    
-    width: 100%;
-    height: 20rem;
-    margin-top: 2%;
-    display: flex;
-    justify-content: space-between;
-}
-.primera_ley{
-    margin: 2%;
-    margin-left: 8%;
-    width: 50%;
-    height: 24.5rem;
-    background-color: #A3C4F3;
-    border-radius: 50px;
-    text-align: justify;
-    /* box-shadow: 2px 2px 5px 5px #017f05; */
-}
-
-.primera_ley  p{
-    padding: 3%;
-    margin-top: 2%;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-}
-
-.conte_primera_ley{
-    padding: 2.5%;
-    margin-top: 3%;
-    display: flex;
-    justify-content: center;
-}
-
-.primera_ley_img{
-    
-    margin: 2%;
-    width: 50%;
-    height: 20rem;
-    /* background-color: black; */
-}
-
-.primera_audio{
-    display: flex;
-    justify-content: center;
-    margin-left: 17%;
-}
-
-
-.fantasma{
-    margin-top: 5%;
-    height: 2rem;
-    width: 100%;
-    
 }
 
 .menu{
     position: absolute;
     margin-top: 3%;
-    width: 20%;
-    height: 30rem;
-
+    width: 40%;
     display: flex;
     flex-direction: column;
- 
-
-
 }
-.menu3d {
-    background: radial-gradient(circle,#90DBF4,#FBF8CC);  
 
+.menu3d {
     width: 100%;
-    height: 4rem;
     transform:
     perspective(750px)
     translate3d(0px, 0px, -250px)
@@ -173,35 +75,93 @@ main{
     transition: 0.4s ease-in-out transform;
     box-shadow: 2px 2px 5px 5px grey;
     text-align: center;
-   
-    }
-  .menu3d:hover {
+    flex:0 0 auto;
+    padding: 30px 45px;
+}
+.menu3d:hover {
     transform: translate3d(0px, 0px, -250px);
-  }
+    cursor: pointer;
+}
 
-.menu3d a{
-
-    text-decoration: none;
-    font-size: 40px;
+.menu3d span{
+    font-size: 50px;
     color: black;
-
 } 
 
+.opcion1 {
+    background-color: #3AC581;
+}
+
+.opcion2 {
+    background-color: #90DBF4;
+}
+
+.slide{
+    position: relative;
+    left: 70%;
+    width: 25%;
+    height: 35rem;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
 section{
-    position: absolute;
-    margin-left: 25%;
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    height: 40rem;
+    margin: 20px;
 }
 
 .divD{
-    margin-top: 3%;
-    width: 100%;
-    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0;
     box-shadow: 2px 2px 5px 5px grey;
-    padding: 3%;
-    text-align: justify;
-    font-size: 30px;
+    text-align: center;
+}
+
+.img{
+    flex:1;
+    padding: 0.8%;
+    background-color: #FFFFFF;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenido{
+    flex:2;
+    font-size: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.titulo-contenido{
+    background-color: #FFFFFF;
+    font-size: 5vw;
+}
+
+.texto-contenido{
+    padding: 2.5%;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+}
+
+iframe{
+    width: 60%;
+    height: 90%;
+    margin: 3%;
+    box-shadow: 2px 2px 5px 5px grey;
 }
