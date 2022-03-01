@@ -12,7 +12,7 @@
     <header class="onda">
         <div class="contenedor_iconos">
             <div class="icono_home">
-                <a href="index.html"><img src="imagenes/home.png"></a>
+                <a href="index.php"><img src="imagenes/home.png"></a>
             </div>
             <div class="icono_facu">
             </div>
@@ -28,7 +28,7 @@
                         <img src="imagenes/mendel.png" style="width: 100%; height: 100%;">
 
                     </div>
-                    <a href="historia.html">HISTORIA</a>
+                    <a href="historia.php">HISTORIA</a>
                     
                 </div>
                 <div class="sub">
@@ -43,21 +43,21 @@
                         <img src="imagenes/leyesMendel.png" style="width: 100%; height: 100%;">
 
                     </div>
-                    <a href="primeraLey.html" >PRIMERA LEY</a>
+                    <a href="primeraLey.php" >PRIMERA LEY</a>
                 </div>
                 <div class="sub">
                     <div class="cont_img">
                         <img src="imagenes/leyesMendel.png" style="width: 100%; height: 100%;">
 
                     </div>
-                    <a href="leyes.php" >SEGUNDA LEY</a>
+                    <a href="segundaLey.php" >SEGUNDA LEY</a>
                 </div>
                 <div class="sub">
                     <div class="cont_img">
                         <img src="imagenes/leyesMendel.png" style="width: 100%; height: 100%;">
 
                     </div>
-                    <a href="leyes.php" >TERCERA LEY</a>
+                    <a href="terceraLey.php" >TERCERA LEY</a>
                 </div>
                
                
@@ -87,7 +87,7 @@
                    
                 </div>
                 <div class="sub2">
-                    <a href="test.html">MENDELISMO COMPLEJO </a>
+                    <a href="test.php">MENDELISMO COMPLEJO </a>
                     <div class="cont_img">
                         <img src="imagenes/tets2.png" style="width: 100%; height: 100%;">
                     </div>
@@ -101,7 +101,7 @@
                   
                 </div>
                 <div class="sub2">
-                    <a href="glosario.html">GLOSARIO </a>
+                    <a href="glosario.php">GLOSARIO </a>
                     <div class="cont_img">
                         <img src="imagenes/glosario.png" style="width: 100%; height: 100%;">
                     </div>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="icono_home">
-        <a href="index.html"><img src="imagenes/home.png"></a>
+        <a href="index.php"><img src="imagenes/home.png"></a>
     </div>
     <header>
     <div id="demotext">Datos Curiosos</div>
