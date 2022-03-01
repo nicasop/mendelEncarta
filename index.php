@@ -33,14 +33,14 @@
                 </div>
                 <div class="sub">
                     <div class="cont_img">
-                        <img src="imagenes/leyesMendel.png" style="width: 100%; height: 100%;">
+                        <img src="imagenes/expeMen.png" style="width: 100%; height: 100%;">
 
                     </div>
                     <a href="leyes.php" >EXPERIMENTOS DE MENDEL</a>
                 </div>
                 <div class="sub">
                     <div class="cont_img">
-                        <img src="imagenes/dibu3_GregoMendel.png" style="width: 100%; height: 100%;">
+                        <img src="imagenes/dibu3_2_GregoMendel.png" style="width: 100%; height: 100%;">
 
                     </div>
                     <a href="primeraLey.php" >PRIMERA LEY</a>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="sub">
                     <div class="cont_img">
-                        <img src="imagenes/dibu6_GregoMendel.png" style="width: 100%; height: 100%;">
+                        <img src="imagenes/dibu6_3_GregoMendel.png" style="width: 100%; height: 100%;">
 
                     </div>
                     <a href="terceraLey.php" >TERCERA LEY</a>
