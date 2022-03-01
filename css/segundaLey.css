@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: auto;
+    min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
+ } 
+body{
+    background: linear-gradient(#f4661b, #ebaf8e);
+   
+}
+header{
+    margin: 2%;
+    text-align: center;
+    display: flex;
+   
+}
+
+.icono_home{
+    padding-left: 2%;
+    position: absolute;
+    width: 6%;
+    height: 7rem;
+    z-index: 2;
+
+}
+.icono_home img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.icono_home img:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+  
+}
+.libreta{
+    display: absolute;
+    width: 85%;
+    height: 50rem;
+    margin-left: 10%;
+    margin-top: 6%;
+}
