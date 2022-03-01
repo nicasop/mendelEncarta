@@ -20,9 +20,9 @@ header{
     text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
     }
 
-.globo{
+/*.globo{
   position: absolute;
-  /*text-transform: uppercase;*/
+
   font-size: 20px;
   
   text-align: justify;
@@ -58,7 +58,15 @@ header{
 
   box-shadow: 
     inset calc(var(--colita)/2) calc(var(--colita)/3) 0 0  #F1C0E8;
+}*/
+
+.nube{
+    max-width: 35%; 
+    height: 15rem;
+    top: 16%;
+    left: 45%;
 }
+
 
 .conte_img{
     position: relative;
