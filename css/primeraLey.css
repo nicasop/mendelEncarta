@@ -8,7 +8,7 @@ html{
     min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
  } 
 body{
-    background: radial-gradient(#246ada,#bac1c9); 
+    background: radial-gradient(#246ada,#95beff); 
 }
 
 .icono_home{

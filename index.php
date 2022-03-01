@@ -40,21 +40,21 @@
                 </div>
                 <div class="sub">
                     <div class="cont_img">
-                        <img src="imagenes/leyesMendel.png" style="width: 100%; height: 100%;">
+                        <img src="imagenes/dibu3_GregoMendel.png" style="width: 100%; height: 100%;">
 
                     </div>
                     <a href="primeraLey.php" >PRIMERA LEY</a>
                 </div>
                 <div class="sub">
                     <div class="cont_img">
-                        <img src="imagenes/leyesMendel.png" style="width: 100%; height: 100%;">
+                        <img src="imagenes/ficha-mendel2.png" style="width: 100%; height: 100%;">
 
                     </div>
                     <a href="segundaLey.php" >SEGUNDA LEY</a>
                 </div>
                 <div class="sub">
                     <div class="cont_img">
-                        <img src="imagenes/leyesMendel.png" style="width: 100%; height: 100%;">
+                        <img src="imagenes/dibu6_GregoMendel.png" style="width: 100%; height: 100%;">
 
                     </div>
                     <a href="terceraLey.php" >TERCERA LEY</a>
@@ -89,7 +89,7 @@
                 <div class="sub2">
                     <a href="test.php">MENDELISMO COMPLEJO </a>
                     <div class="cont_img">
-                        <img src="imagenes/tets2.png" style="width: 100%; height: 100%;">
+                        <img src="imagenes/dibu5_GregoMendel.png" style="width: 100%; height: 100%;">
                     </div>
                 </div>
                 <div class="sub2">
