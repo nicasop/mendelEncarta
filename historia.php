@@ -14,7 +14,16 @@
             </div>
             
             <div id="demotext">HISTORIA DE MENDEL</div></header>
-            <div class="nube"> </div>
+            <div class="nube"> 
+            <img src="imagenes/nube.png" style="width: 100%; height: 100%;">
+            </div>
+            <div class="textoNube"><p>Gregor Mendel (1822-1884), un monje Austriaco, es considerado el padre de la Genética.
+             Mendel pasó gran parte de su vida trabajando con chícharos, tratando de revelar el origen de las especies,
+              sin imaginar, que terminaría explicando los principios de heredabilidad de caracteres (Curtis, 2007)
+              .Mendel eligió características que pudieran identificarse claramente para establecer los principios 
+              de heredabilidad, durante varias generaciones. Él evidenció que las intervenciones del padre y de 
+              la madre se manifestaban con desigualdad en los hijos, concluyendo que cada planta recibe características 
+              de cada progenitor.</p> </div>
        <div class="conte_img">
         <img src="imagenes/mendel2.jpg" style="width: 100%; height: 100%;">
 

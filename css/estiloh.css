@@ -8,7 +8,7 @@ html{
     min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
  } 
 body{
-    background: radial-gradient(circle,#FFCFD2,#98F5E1); 
+    background: linear-gradient(to bottom right,#35CA94,#CA356B); 
 }
 header{
    text-align: center;
@@ -20,51 +20,21 @@ header{
     text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
     }
 
-/*.globo{
-  position: absolute;
-
-  font-size: 20px;
-  
-  text-align: justify;
-  border-radius: var(--borde);
-  padding: var(--borde);
-  --borde: 1em;
-  font-family: sans-serif;
-  z-index: 1; 
-  background-color: #F1C0E8;
-  filter: drop-shadow(0px 0px 1px black) ;
-}
-
-.globo.i{
-  max-width: 35%; 
-  height: 15rem;
-  top: 16%;
-  left: 45%;
-}
-.globo::before{
-  content: '';
-  position: absolute; 
-  z-index: -1;
-  width: var(--colita);
-  height: var(--colita);
-}
-
-.globo.abajo-derecha::before{
-  --colita: 150px;
-  left: 60%;
-  bottom: calc( var(--colita) / -1.5);
-  transform: skewY(30deg) rotateZ(-30deg);
-  border-radius: 0 0 0 10em;
-
-  box-shadow: 
-    inset calc(var(--colita)/2) calc(var(--colita)/3) 0 0  #F1C0E8;
-}*/
 
 .nube{
-    max-width: 35%; 
-    height: 15rem;
-    top: 16%;
-    left: 45%;
+    position: absolute;
+    width: 50%; 
+    height: 24rem;
+    margin-left: 41%;
+}
+.textoNube{
+    font-size: 1vw;
+    position: absolute;
+    width: 27%; 
+    height: 24rem;
+    margin-top: 4%;
+    margin-left: 53%;
+    text-align: justify;
 }
 
 
@@ -80,7 +50,7 @@ header{
 .slide{
     position: relative;
     
-    left: 72%;
+    left: 82%;
     width: 15%;
     height: 25rem;
 }
