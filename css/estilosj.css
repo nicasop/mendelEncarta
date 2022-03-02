@@ -8,7 +8,7 @@ html{
     min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
  } 
 body{
-    background: radial-gradient(circle,#FDE4CF,#CFBAF0); 
+    background: radial-gradient(circle,#e6e07b,#e4e09d); 
 }
 
 #demotext {
@@ -43,37 +43,61 @@ body{
     .menu{
         margin-top: 3%;
         width: 100%;
-        height: 8rem;
-
         display: flex;
-        justify-content: space-around;
+        flex-flow: row wrap;
+        justify-content: flex-start;
 
     }
-    .menu3d {
-        background: radial-gradient(circle,#FDE4CF,#CFBAF0); 
+    
+    .boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 27vh;
+        height: 5vw;
+        flex-basis: 18%;
+    }
 
-        width: 10%;
-        height: 7rem;
-        transform:
-        perspective(2000px)
-        translate3d(0px, -66px, 198px)
-        rotateX(-55deg)
-        scale3d(0.86, 0.75, 1)
-        translateY(50px);
-        border-radius: 5px;
-        will-change: transform;
-        transition: 0.4s ease-in-out transform;
-        box-shadow: 2px 2px 5px 5px grey;
-        padding-top: 3%;
-      }
-      .menu3d:hover {
-        transform: scale3d(0.9, 0.9, 0.9);
-      }
+    .boton img{
+        width: 100%;
+        height: 100%;
+    }
 
-    .menu3d a{
+    .boton:hover{
+        transform: scale(1.05,1.05);
+        cursor: pointer;
+    }
+
+    .boton1{
+        background-image: url("../imagenes/boton1.png");
+        background-size: cover;
+    }
+
+    .boton2{
+        background-image: url("../imagenes/boton2.png");
+        background-size: cover;
+    }
+
+    .boton3{
+        background-image: url("../imagenes/boton3.png");
+        background-size: cover;
+    }
+
+    .boton4{
+        background-image: url("../imagenes/boton4.png");
+        background-size: cover;
+    }
+
+    .boton5{
+        background-image: url("../imagenes/boton5.png");
+        background-size: cover;
+    }
+
+    .boton a{
         text-decoration: none;
         font-size: 40px;
         color: black;
+        padding: 10px 38px;
     } 
     
     section{
@@ -86,3 +110,83 @@ body{
         width: 80%;
         height: 50rem;
     }
+    
+    main{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+    font-size: 1.5rem;
+    border: groove 10px;
+    padding: 2.5%;
+
+    }
+
+.contenedor-pregunta{
+    padding: 20px 0;
+}
+
+.resp{
+    padding: 20px 15px;
+    padding-left: 1px;
+    display: block;
+    border: solid 2px #eee;
+    border-radius: 10px;
+    margin: 0.8%;
+    box-shadow: 2px 2px 1px grey;
+}
+
+.resp span{
+    margin: 2px 4px;
+    padding: 12px 6px;
+    border-radius: 5px;
+    font-family: 'Roboto Serif', sans-serif;
+    color: white;
+}
+
+.op1{
+    background-color: rgb(9, 209, 209);
+}
+
+.op2{
+    background-color: orange;
+}
+
+.op3{
+    background-color: violet;
+}
+
+.op4{
+    background-color: forestgreen;
+}
+
+.resp:hover{
+    cursor: pointer;
+    transform: scale(1.02,1.02);
+}
+
+.correcto{
+    background-color: rgba(0,255,0,0.5);
+}
+
+.incorrecto{
+    background-color: rgba(255,0,0,0.5);
+}
+
+.sin-eventos{
+    pointer-events: none;
+}
+
+.reiniciar{
+    text-decoration: none;
+    background-color: #57c43b;
+    padding: 20px 40px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+    transition: 1.5s ease background-color;
+}
+
+.reiniciar:hover{
+    background-color: #A83BC4;
+}

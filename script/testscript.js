@@ -1,3 +1,6 @@
+var cont = 0;
+$('#reinicio').hide();
+
 function validar(obj,obj1,txt){
     obj.click(function (e) { 
         e.preventDefault();
@@ -9,6 +12,10 @@ function validar(obj,obj1,txt){
             obj.addClass("incorrecto");
         }
         obj1.addClass("sin-eventos");
+        cont = cont + 1;
+        if (cont == 10){
+            $('#reinicio').show();
+        }
     });
 }
 
@@ -32,4 +39,4 @@ $(document).ready(function () {
     for(var i = 0; i < preguntas.id.length; i++){
         validar($(preguntas.id[i]),$(preguntas.contenedor[i]),preguntas.respuesta[i]);
     }
- });
+});
