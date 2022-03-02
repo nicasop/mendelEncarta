@@ -8,81 +8,30 @@ html{
     min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
  } 
 body{
-    background: radial-gradient(circle,#B9FBC0,#FFCFD2); 
+    background: linear-gradient(to left,#896a95, #e5c5f0);
+   
+}
+header{
+    margin: 2%;
+    text-align: center;
+    display: flex;
+   
 }
 
-#demotext {
-    font-size: 100px;
-    color: #FFFFFF;
-    margin-top: 2%;
-    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
-   
-    }
+.icono_home{
+    padding-left: 2%;
+    position: absolute;
+    width: 6%;
+    height: 7rem;
+    z-index: 2;
 
-    .icono_home{
-        padding-left: 2%;
-        position: absolute;
-        width: 6%;
-        height: 7rem;
-        z-index: 2;
-    
-    }
-    .icono_home img{
-        width: 100%;
-        height: 100%;
-        z-index: 2;
-    }
-    .icono_home img:hover{
-        -webkit-transform:scale(1.2);transform:scale(1.2);
-      
-    }
-    header{
-        text-align: center;
-    }
-
-    .menu{
-        margin-top: 3%;
-        width: 100%;
-        height: 10rem;
-
-        display: flex;
-        justify-content: space-around;
-
-    }
-    .menu3d {
-        background: radial-gradient(circle,#B9FBC0,#FFCFD2);  
-
-        width: 15%;
-        height: 10rem;
-        transform:
-        perspective(2000px)
-        translate3d(0px, -66px, 198px)
-        rotateX(-55deg)
-        scale3d(0.86, 0.75, 1)
-        translateY(50px);
-        border-radius: 5px;
-        will-change: transform;
-        transition: 0.4s ease-in-out transform;
-        box-shadow: 2px 2px 5px 5px grey;
-        padding-top: 3%;
-      }
-      .menu3d:hover {
-        transform: scale3d(0.9, 0.9, 0.9);
-      }
-
-    .menu3d a{
-        text-decoration: none;
-        font-size: 40px;
-        color: black;
-    } 
-    
-    section{
-        display: flex;
-        justify-content: center;
-
-    }
-    iframe{
-        margin-top: 3%;
-        width: 80%;
-        height: 30rem;
-    }
+}
+.icono_home img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.icono_home img:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+  
+}

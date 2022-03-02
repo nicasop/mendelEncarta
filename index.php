@@ -15,6 +15,8 @@
                 <a href="index.php"><img src="imagenes/home.png"></a>
             </div>
             <div class="icono_facu">
+            <img src="imagenes/logoFacu.png" style="width: 100%; height: 100%;">
+
             </div>
         </div>
       
