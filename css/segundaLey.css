@@ -192,7 +192,7 @@ header{
 .contenedor_tit{
     position: absolute;
     width: 36%;
-    height: 42rem;
+    height: 25rem;
     margin-left: 13.5%;
     margin-top: 2%;
     z-index: 2;
@@ -200,6 +200,7 @@ header{
     font-size: 2vw;
     font-family: 'Tangerine', serif;
     display: none;
+    background-color: red;
 }
 
 .contenedor_tit h1{
