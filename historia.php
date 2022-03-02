@@ -12,6 +12,7 @@
     <title>Historia de Mendel </title>
 </head>
 <body>
+    
         <header>
             <div class="icono_home">
                 <a href="index.php"><img src="imagenes/home.png"></a>
