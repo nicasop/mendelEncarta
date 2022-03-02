@@ -21,28 +21,22 @@
    
     <div class="main_boton">
         <div class="botones"> 
-        <a href="videos.php?id=1"><img src="imagenes/boton1.png" style="width: 100%; height: 100%;"></a>
+        <a href="videos.php?id=1"><img src="imagenes/boton1_1.png" style="width: 100%; height: 100%;"></a>
        
         </div>
         <div class="botones">
-        <a href="videos.php?id=2"><img src="imagenes/boton2.png" style="width: 100%; height: 100%;"></a>
+        <a href="videos.php?id=2"><img src="imagenes/boton1_2.png" style="width: 100%; height: 100%;"></a>
  </div>
        
         <div class="botones"> 
-        <a href="videos.php?id=3"><img src="imagenes/boton4.png" style="width: 100%; height: 100%;"></a>
+        <a href="videos.php?id=3"><img src="imagenes/boton1_3.png" style="width: 100%; height: 100%;"></a>
 
         </div>
         <div class="botones"> 
-        <a href="videos.php?id=4"><img src="imagenes/boton5.png" style="width: 100%; height: 100%;"></a>
+        <a href="videos.php?id=4"><img src="imagenes/boton1_4.png" style="width: 100%; height: 100%;"></a>
 
         </div>
     </div>
-
-    <h1 class="video1" >Biografía de Mendel</h1>
-    <h1 class="video2" >Experimentos de Mendel</h1>
-
-    <h1 class="video3" >Ley de Uniformidad</h1>
-    <h1 class="video4" >Ley de Segregación</h1>
     <div class ="contenedor">
     <?php
             $id = 0;

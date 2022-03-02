@@ -8,7 +8,8 @@ html{
     min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
  } 
 body{
-    background: linear-gradient(to right,#896a95, #e5c5f0);
+   background: linear-gradient(to right,#896a95, #e5c5f0);
+   /*background-color: white;*/
    
 }
 header{
