@@ -9,7 +9,7 @@ html{
     min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
  } 
 body{
-    background: radial-gradient(circle,#FFCFD2,#98F5E1); 
+    background: radial-gradient(circle,#63719C,#99a1bb); 
 }
 header{
    text-align: center;
@@ -39,36 +39,76 @@ header{
   
 }
 
-main{
-    margin: auto;
-    margin-top: 50px;
-    width: 80%;
-    font-size: 1.5rem;
+.controles{
+    display: flex;
+    justify-content: flex-end;
 }
 
-.contenedor-pregunta{
-    padding: 20px 0;
+.boton{
+    background-color:#47A3B8;
+    padding: 20px 40px;
+    margin: 0.8%;
+    border-radius: 15px;
+    color: white;
+    font-size: 2vw;
+    transition: 1.5s ease background-color;
 }
 
-.resp{
-    padding: 10px 15px;
-    display: inline-block;
-}
-
-.resp:hover{
+.boton:hover{
     cursor: pointer;
-    transform: scale(1.15,1.15);
+    transform: scale(1.05,1.05);
+    background-color:#B85C47;
 }
 
-.correcto{
-    background-color: rgba(0,255,0,0.5);
+.contenedor{
+    display: flex;
+    border: solid 1px black;
+    width: 97%;
+    padding: 0.8%;
+    margin: 0.8%;
+    font-size: 2.5vw;
+    flex-direction: column;
+    text-align: justify;
 }
 
-.incorrecto{
-    background-color: rgba(255,0,0,0.5);
+.titulo{
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-weight: 700;
 }
 
-.sin-eventos{
-    pointer-events: none;
+.lista{
+    margin: auto;
 }
 
+.lista1 {
+    margin-left: 20%;
+}
+
+.titulo-flex{
+    flex:1;
+}
+
+.contenido{
+    flex:2;
+    display: flex;
+    margin: 0.8%;
+}
+
+.imagen-contenido{
+    flex:1;
+}
+
+.imagen-contenido img{
+    width: 100%;
+    height: 100%;
+}
+
+.texto-contenido{
+    flex:1;
+}
+
+.ocultar{
+    display: none;
+}
