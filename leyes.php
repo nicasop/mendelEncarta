@@ -29,7 +29,9 @@
     <div class="slide">
         <img src="imagenes/slide2_1.gif">
     </div>
-
+    <div class="fantasma">
+        <a id="link" href="#contenido-boton"></a>
+    </div>
     <div id="contenido-boton"></div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

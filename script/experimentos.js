@@ -9,6 +9,7 @@ $(document).ready(function () {
         $('#contenido-boton').empty();
         $("#contenido-boton").append(respuesta);
         $('#contenido-boton').hide().fadeIn(2000);
+        $("#link").get(0).click();
     });
     $("#op2").click(function (e) { 
         e.preventDefault();
@@ -16,5 +17,6 @@ $(document).ready(function () {
         $('#contenido-boton').empty();
         $("#contenido-boton").append(respuesta).fadeIn(1500);
         $('#contenido-boton').hide().fadeIn(2000);
+        $("#link").get(0).click();
     });
 });
