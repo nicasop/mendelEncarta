@@ -1,5 +1,5 @@
 var respuesta = ""
-respuestas =['<section><div class="divD"><iframe src="https://onedrive.live.com/embed?cid=7C880703BBE0C53D&amp;resid=7C880703BBE0C53D%21148&amp;authkey=AFz58AF89IcDGKs&amp;em=2&amp;wdAr=1.7777777777777777" frameborder="0">Esto es un documento de <a target="_blank" href="https://office.com">Microsoft Office</a> incrustado con tecnología de <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe></div></section>',
+respuestas =['<section><div class="divD"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/XzgWw59yjrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></section>',
 '<section>'+
         '<div class="divD">'+
             '<div class="act1">'+
