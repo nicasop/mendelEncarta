@@ -73,35 +73,28 @@ header{
     font-size: 2.2vw;
     font-family: 'Tangerine', serif;
     position: absolute; 
-    margin-top: 15.5%;
-    margin-left: 78%;
+    margin-top: 18%;
+    margin-left: 77.5%;
     z-index: 1;
 }
 
 .video3{
-    font-size: 3vw;
+    font-size: 2.6vw;
     font-family: 'Tangerine', serif;
     position: absolute; 
-    margin-top: 23%;
-    margin-left: 83%;
+    margin-top: 27%;
+    margin-left: 78%;
     z-index: 1;
 }
 .video4{
     font-size: 3vw;
     font-family: 'Tangerine', serif;
     position: absolute; 
-    margin-top: 30%;
-    margin-left: 83%;
+    margin-top: 35%;
+    margin-left: 77.5%;
     z-index: 1;
 }
-.video5{
-    font-size: 3vw;
-    font-family: 'Tangerine', serif;
-    position: absolute; 
-    margin-top: 37.5%;
-    margin-left: 78%;
-    z-index: 1;
-}
+
 
 .contenedor{
     position: absolute;
