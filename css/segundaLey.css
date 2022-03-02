@@ -182,7 +182,8 @@ header{
 .contenedor_vid{
     position: absolute;
     width: 36%;
-    height: 42rem;
+    height: 70%;
+    /*height: 42rem;*/
     margin-left: 59%;
     margin-top: 3%;
     z-index: 1;
@@ -200,7 +201,6 @@ header{
     font-size: 2vw;
     font-family: 'Tangerine', serif;
     display: none;
-    background-color: red;
 }
 
 .contenedor_tit h1{
