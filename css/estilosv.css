@@ -8,7 +8,7 @@ html{
     min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
  } 
 body{
-    background: linear-gradient(to left,#896a95, #e5c5f0);
+    background: linear-gradient(to right,#896a95, #e5c5f0);
    
 }
 header{
@@ -34,4 +34,80 @@ header{
 .icono_home img:hover{
     -webkit-transform:scale(1.2);transform:scale(1.2);
   
+}
+
+.main_boton{
+    margin-top: 5%;
+    margin-left: 74%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 45rem;
+    z-index: -1;
+    
+}
+.botones{
+    margin-top: 3%;
+    margin-left: 9%;
+    
+    width: 80%;
+    height: 10rem;
+    z-index: -1;
+}
+
+.botones img:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    
+}
+
+.video1{
+    font-size: 2.3vw;
+    font-family: 'Tangerine', serif;
+    position: absolute; 
+    margin-top: 8.5%;
+    margin-left: 78%;
+    z-index: 1;
+}
+.video2{
+    font-size: 2.2vw;
+    font-family: 'Tangerine', serif;
+    position: absolute; 
+    margin-top: 15.5%;
+    margin-left: 78%;
+    z-index: 1;
+}
+
+.video3{
+    font-size: 3vw;
+    font-family: 'Tangerine', serif;
+    position: absolute; 
+    margin-top: 23%;
+    margin-left: 83%;
+    z-index: 1;
+}
+.video4{
+    font-size: 3vw;
+    font-family: 'Tangerine', serif;
+    position: absolute; 
+    margin-top: 30%;
+    margin-left: 83%;
+    z-index: 1;
+}
+.video5{
+    font-size: 3vw;
+    font-family: 'Tangerine', serif;
+    position: absolute; 
+    margin-top: 37.5%;
+    margin-left: 78%;
+    z-index: 1;
+}
+
+.contenedor{
+    position: absolute;
+    width: 70%;
+    height: 45rem;
+    
+    margin-top: 5%;
+    margin-left: 2%;
 }

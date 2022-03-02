@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilosv.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+        
     <title>Videos</title>
 </head>
 <body>
@@ -16,6 +19,62 @@
       
     </header>
    
+    <div class="main_boton">
+        <div class="botones"> 
+        <a href="videos.php?id=1"><img src="imagenes/boton1.png" style="width: 100%; height: 100%;"></a>
+       
+        </div>
+        <div class="botones">
+        <a href="videos.php?id=2"><img src="imagenes/boton2.png" style="width: 100%; height: 100%;"></a>
+ </div>
+        <div class="botones"> 
+        <a href="videos.php?id=3"><img src="imagenes/boton3.png" style="width: 100%; height: 100%;"></a>
 
+        </div>
+        <div class="botones"> 
+        <a href="videos.php?id=4"><img src="imagenes/boton4.png" style="width: 100%; height: 100%;"></a>
+
+        </div>
+        <div class="botones"> 
+        <a href="videos.php?id=5"><img src="imagenes/boton5.png" style="width: 100%; height: 100%;"></a>
+
+        </div>
+    </div>
+
+    <h1 class="video1" >Biografía de Mendel</h1>
+    <h1 class="video2" >Experimentos de Mendel</h1>
+    <h1 class="video3" >Video</h1>
+    <h1 class="video4" >Ejercicio</h1>
+    <h1 class="video5" >Ley de segregación</h1>
+    <div class ="contenedor">
+    <?php
+            $id = 0;
+            if (isset($_REQUEST["id"])){
+                $id =  $_REQUEST["id"];
+            }
+ 
+            if ($id == 1){
+               echo ' <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FR8cRbUxZFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+              
+            }
+            else if( $id ==2){
+                echo '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/LxBHcgt5rDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+            }
+            else if( $id ==3){
+                echo '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/jyhVPOWP2G8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+            }
+            else if( $id ==4){
+                echo '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xLgk2l6Gg2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+            }
+            else if( $id ==5){
+                echo '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/8Se-vCQhDsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+            }
+           
+        ?>
+    </div>
 </body>
 </html>
