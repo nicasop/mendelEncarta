@@ -35,10 +35,178 @@ header{
     -webkit-transform:scale(1.2);transform:scale(1.2);
   
 }
-.libreta{
-    display: absolute;
-    width: 85%;
-    height: 50rem;
+.libreta{  
+    position: absolute;
+    width: 88.5%;
+    height: 54.5rem;
     margin-left: 10%;
-    margin-top: 6%;
+    z-index: -1;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.texto_pag1{
+    position: absolute;
+    width: 38%;
+    height: 52rem;
+    margin-left: 58%;
+    margin-top: 1%;
+    z-index: 1;
+}
+.texto_pag2{
+    position: absolute;
+    width: 36%;
+    height: 50rem;
+    margin-left: 13.5%;
+    margin-top: 2%;
+    z-index: 2;
+    text-align: justify;
+    display: none;
+}
+.gregormendel{
+    position: absolute;
+    width: 36%;
+    height: 50rem;
+    margin-left: 13.5%;
+    margin-top: 2%;
+    z-index: 2;
+    text-align: justify;
+  
+}
+
+.gregormendel2{
+    position: absolute;
+    width: 36%;
+    height: 49rem;
+    margin-left: 58%;
+    margin-top: 2%;
+    z-index: 1;
+    display: none;
+  
+}
+
+
+
+.texto_pag1 h1{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 5vw;
+    font-family: 'Tangerine', serif;
+}
+.texto_pag1 h1:hover{
+    color: #f4661b;
+}
+
+.texto_pag1 p{
+    text-align: justify;
+    padding: 4%;
+    font-size: 2.5vw;
+}
+
+
+.texto_pag2 h1{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 5vw;
+    font-family: 'Tangerine', serif;
+}
+.texto_pag2 h1:hover{
+    color: #f4661b;
+}
+
+.texto_pag2 p{
+    text-align: justify;
+    padding: 4%;
+    font-size: 2.5vw;
+}
+
+
+.boton_sig{
+    position: absolute;
+    width: 5%;
+    height: 4rem;
+    margin-left: 88%;
+    margin-top: 40%;
+    z-index: 2;
+    text-align: justify;
+    font-size: 2vw;
+    font-family: 'Tangerine', serif;
+}
+.boton_sig a{
+    text-decoration: none;
+    color: black;
+}
+.boton_sig h2:hover{
+    color: #f4661b;
+}
+.boton_sig2{
+    position: absolute;
+    width: 5%;
+    height: 4rem;
+    margin-left: 88%;
+    margin-top: 40%;
+    z-index: 2;
+    text-align: justify;
+    font-size: 2vw;
+    font-family: 'Tangerine', serif;
+    display: none;
+}
+.boton_sig2 a{
+    text-decoration: none;
+    color: black;
+}
+.boton_sig2 h2:hover{
+    color: #f4661b;
+}
+.boton_atras{
+    position: absolute;
+    width: 5%;
+    height: 4rem;
+    margin-left: 14%;
+    margin-top: 40%;
+    z-index: 2;
+    text-align: justify;
+    font-size: 2vw;
+    font-family: 'Tangerine', serif;
+    display: none;
+}
+.boton_atras a{
+    text-decoration: none;
+    color: black;
+}
+.boton_atras h2:hover{
+    color: #f4661b;
+}
+
+.contenedor_vid{
+    position: absolute;
+    width: 36%;
+    height: 42rem;
+    margin-left: 59%;
+    margin-top: 3%;
+    z-index: 1;
+    display: none;
+}
+
+.contenedor_tit{
+    position: absolute;
+    width: 36%;
+    height: 42rem;
+    margin-left: 13.5%;
+    margin-top: 2%;
+    z-index: 2;
+    text-align: justify;
+    font-size: 2vw;
+    font-family: 'Tangerine', serif;
+    display: none;
+}
+
+.contenedor_tit h1{
+    padding-top: 50%;
+    padding-left: 30%;
+}
+
+.contenedor_tit h1:hover{
+    color: #f4661b;
 }
