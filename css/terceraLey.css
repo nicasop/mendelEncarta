@@ -77,6 +77,11 @@ header{
     padding: 30px 45px;
     background-color: #D2A12D;
 }
+
+.menu3d a{
+    text-decoration:none;
+}
+
 .menu3d:hover {
     transform: translate3d(0px, 0px, -250px);
     cursor: pointer;
@@ -97,9 +102,9 @@ section{
 
 .divD{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 3% 0;
-    box-shadow: 2px 2px 5px 5px grey;
+    /* box-shadow: 2px 2px 5px 5px grey; */
     text-align: center;
     justify-content: center;
 }
@@ -109,17 +114,88 @@ section{
     height: 40vw;
 }
 
-.img{
+.act1{
+    font-size: 2.5vw;
+    text-align: justify;
+    padding: 0.8%;
+    background-color: #3EA8C1;
+    margin: 1.5%;
+    border-radius: 35px;
+}
+
+.act1 p{
+    padding: 1%;
+}
+
+.titulo{
+    font-size: 3.5vw;
+    padding: 2% 0;
+    font-family: 'Fredoka', sans-serif;
+    border-bottom: solid 2px white;
+    color: white;
+}
+
+.img1{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    box-shadow: 2px 2px 5px 5px grey;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.act2{
+    display: flex;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0.8%;
+}
+
+.titulo-flex{
+    flex: 1;
+    margin-bottom: 10px;
+}
+.img-contenido{
+    flex: 7;
+}
+
+.img-contenido img{
+    width: 80%;
+    height: 100%;
+    box-shadow: 2px 2px 5px 5px grey;
+}
+
+.imagenes-resultado{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.imagen-resultado{
+    flex: 1;
+    padding-bottom: 0.8%;
+}
+
+.imagen-resultado img{
+    width: 80%;
+    height: 100%;
+    box-shadow: 2px 2px 5px 5px grey;
+}
+
+
+/* .img{
     flex:1;
     padding: 0.8%;
     background-color: #FFFFFF;
 }
 .img img{
-    width: 100%;
-    height: 100%;
-}
+} */
 
-.contenido{
+/* .contenido{
     flex:2;
     font-size: 3.5vw;
     display: flex;
@@ -146,4 +222,4 @@ section{
     display: flex;
     justify-content: center;
     height: 30vw;
-}
+} */
