@@ -8,7 +8,7 @@ html{
     min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
  } 
 body{
-    background: radial-gradient(circle,#FBF8CC,#FFCFD2); 
+    background: linear-gradient(to left,#57dad9,#bbf0f0); 
 }
 
 #demotext {
@@ -42,59 +42,113 @@ body{
      }
 
 
-     /*tABLA GLOSARIO*/
+    .caja1{
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 2%;
+      width: 96%;
+      height: 100rem;
+      z-index: 2;
+     
+    }
+    .caja1 img{
+      border-radius: 100px;
+      border: 2px solid  red;
+    }
 
-table {
-    background-color: #FFF;
-    color: #333;
-    font-family: sans-serif;
-    font-size: .9em;
-    font-weight: 300;
-    text-align: left;
-    line-height: 40px;
-    border-spacing: 0;
-    border: 1px solid #428bca;
-    margin: 20px auto;
-    cursor: pointer;
+    .caja2{
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 2%;
+      width: 96%;
+      height: 100rem;
+      z-index: 2;
+      display: none;
+     
+    }
+    .caja2 img{
+      border-radius: 100px;
+      border: 2px solid  red;
+    }
+    .caja3{
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 2%;
+      width: 96%;
+      height: 100rem;
+      z-index: 2;
+      display: none;
+     
+    }
+    .caja3 img{
+      border-radius: 100px;
+      border: 2px solid  red;
+    }
+
+    .caja4{
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 2%;
+      width: 96%;
+      height: 100rem;
+      z-index: 2;
+      display: none;
+     
+    }
+    .caja4 img{
+      border-radius: 100px;
+      border: 2px solid  red;
+    }
+
+    .caja5{
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 2%;
+      width: 96%;
+      height: 20rem;
+      z-index: 2;
+      display: none;
+     
+    }
    
-  }
-  
-  thead tr:first-child {
-    background: #428bca;
-    color: #fff;
-    border: none;
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  th {
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  th:first-child,
-  td:first-child {
-    padding: 0 15px 0 20px;
-  }
-  
-  thead tr:last-child th {
-    border-bottom: 2px solid #ddd;
-  }
-  
-  tbody tr:hover {
-    background-color: #f0fbff;
-  }
-  
-  tbody tr:last-child td {
-    border: none;
-  }
-  
-  tbody td {
-    border-bottom: 1px solid #ddd;
-    text-align: justify;
-    font-size: 20px;
-    padding-right: 20px;
-  }
 
- 
+
+
+
+    .div_avanzar{
+      margin-left: 45%;
+      display: flex;
+      justify-content: space-around;
+      width: 10%;
+      height: 5rem;
+    }
+svg:hover{
+  -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+
+#atras{
+  display: none;
+}
+
+#adelante2{
+  display: none;
+}
+
+#atras2{
+  display: none;
+}
+
+#adelante3{
+  display: none;
+}
+
+#atras3{
+  display: none;
+}
+
+#adelante4{
+  display: none;
+}
+#atras4{
+  display: none;
+}
