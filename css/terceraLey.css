@@ -1,0 +1,149 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: auto;
+    min-height: 100%; /*todo esto para q no se repita sino q se aplique a toda la pantalla*/
+ } 
+body{
+    background: radial-gradient(circle,#E52832,#e5babc); 
+    /* background: linear-gradient(to bottom right,#ca8baa#C53A7E);  */
+}
+.icono_home{
+    padding-left: 2%;
+    position: absolute;
+    width: 6%;
+    height: 7rem;
+    z-index: 2;
+
+}
+.icono_home img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.icono_home img:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+  
+}
+
+header{
+    margin: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#demotext {
+    margin-left: 15%;
+    font-size: 100px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+
+.cont_icon{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 15%;
+    height: 40%;
+    /*background-color: black;*/
+}
+
+.menu{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.menu3d {
+    /* width: 100%; */
+    transform:
+    perspective(750px)
+    translate3d(0px, 0px, -250px)
+    rotateX(27deg)
+    scale(0.9, 0.9);
+    border-radius: 20px;
+    border: 5px solid #e6e6e6;
+    box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+    transition: 0.4s ease-in-out transform;
+    box-shadow: 2px 2px 5px 5px grey;
+    text-align: center;
+    /* flex:0 0 auto; */
+    padding: 30px 45px;
+    background-color: #D2A12D;
+}
+.menu3d:hover {
+    transform: translate3d(0px, 0px, -250px);
+    cursor: pointer;
+}
+
+.menu3d span{
+    font-size: 50px;
+    color: #2D5ED2;
+} 
+
+.fantasma{
+    display: none;
+}
+
+section{
+    margin: 20px;
+}
+
+.divD{
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0;
+    box-shadow: 2px 2px 5px 5px grey;
+    text-align: center;
+    justify-content: center;
+}
+
+.divD iframe {
+    width: 100%;
+    height: 40vw;
+}
+
+.img{
+    flex:1;
+    padding: 0.8%;
+    background-color: #FFFFFF;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenido{
+    flex:2;
+    font-size: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.titulo-contenido{
+    background-color: #FFFFFF;
+    font-size: 5vw;
+}
+
+.texto-contenido{
+    padding: 2.5%;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+}
